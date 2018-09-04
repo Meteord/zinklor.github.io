@@ -5,9 +5,7 @@
   "description": "ultimate ultimae einheitenregister",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -22,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/Meteord/zinklor.github.io/issues"
   },
-  "homepage": "https://github.com/Meteord/zinklor.github.io#readme",
   "dependencies": {
     "create-react-app": "^1.5.2"
   }
