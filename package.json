@@ -1,10 +1,13 @@
 {
   "name": "zinklor.github.io",
+  "homepage": "https://meteord.github.io/zinklor.github.io/",
   "version": "1.0.0",
   "description": "ultimate ultimae einheitenregister",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Meteord/zinklor.github.io/issues"
   },
-  "homepage": "https://github.com/Meteord/zinklor.github.io#readme"
+  "homepage": "https://github.com/Meteord/zinklor.github.io#readme",
+  "dependencies": {
+    "create-react-app": "^1.5.2"
+  }
 }
