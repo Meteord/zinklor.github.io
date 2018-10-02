@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MUIDataTable from "mui-datatables";
 import logo from './logo.svg';
-import datasource from './data.csv';
+import datasource from './ultimatedata.txt';
 import * as d3 from 'd3';
 import './App.css';
 
@@ -9,29 +9,31 @@ class App extends Component {
 
   state = {
     page: 0,
-    count: 100,
     data: []
   };
-
-
-  getData(source){
-      return d3.csv(source, function(data) {
+  columns = ["Name", "Abkürzung", 'Kosten', 'Kraft',	'Schuss', 'Geschwindigkeit', 'Transport', 'Typ',	'Effekt/Erforschung',	'Hinweise'];
+    
+  getData(source, columns){
+      return d3.tsv(source, function(data) {
        console.log(data); 
-        return [data.einheit,data.abkürzung];
+        let dataslide = [];
+        columns.forEach(column => {
+           dataslide.push(data[column])
+        });
+        return dataslide;
       }).then((data) => {
-        console.log(JSON.stringify(data));
+        console.log(data);
         this.setState({ data });
       })
   }
 
   componentDidMount() {
-    return this.getData(datasource);
+    return this.getData(datasource, this.columns);
 }
   
 
   render() {
-    const columns = ["Einheit", "Abkürzung"];
-    const { data, page, count } = this.state;
+    const { data, page } = this.state;
 
     const options = {
       filterType: "dropdown",
@@ -39,7 +41,6 @@ class App extends Component {
       filter: true,
       download: false,
       print: true,
-      count: count,
       page: page
     };
     return (
@@ -51,7 +52,7 @@ class App extends Component {
         
       <MUIDataTable
         data={data}
-        columns={columns}
+        columns={this.columns}
         options={options}
       />
       </div>
