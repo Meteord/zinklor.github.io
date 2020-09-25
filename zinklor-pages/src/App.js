@@ -16,14 +16,13 @@ class App extends Component {
     
   getData(source, columns){
       return d3.tsv(source, function(data) {
-       console.log(data); 
         let dataslide = [];
         columns.forEach(column => {
            dataslide.push(data[column])
         });
         return dataslide;
       }).then((data) => {
-        console.log(data);
+        console.log(data[0]);
         this.setState({ data });
       })
   }
@@ -44,11 +43,15 @@ class App extends Component {
       print: true,
       page: page
     };
-
-    const content = data.map((row) =>  
-      <div key={row.name} name={row.Name}>      
-      <EinheitenCard></EinheitenCard>
-  </div>
+    /**
+     *    <MUIDataTable
+        data={data}
+        columns={this.columns}
+        options={options}
+      /> 
+     */
+    const content = data.map((row, idx) =>    
+      <EinheitenCard name={row[0]} abk={row[1]} key={idx}></EinheitenCard>
 );
     return (
       <div className="App">
@@ -57,12 +60,7 @@ class App extends Component {
           <h1 className="App-title">Ultimate ultimate Einheitenregister</h1>
         </header>
         
-      <MUIDataTable
-        data={data}
-        columns={this.columns}
-        options={options}
-      />
-      <div>{content}</div>
+      <div style={{ flexDirection: 'row', justifyContent: 'space-between', flexWrap: "wrap", display: "flex"}}>{content}</div>
       </div>
     );  
   }

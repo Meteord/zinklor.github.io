@@ -10,15 +10,6 @@ import Button from '@material-ui/core/Button';
 import './EinheitenCard.css';
 
 class EinheitenCard extends Component {
-
-  constructor(props) {
-    super(props);
-  }
-
-
-  state = {
-  };
-
   componentDidMount() {
   }
   render() {
@@ -29,15 +20,15 @@ class EinheitenCard extends Component {
           <CardHeader
             avatar={
               <Avatar aria-label="recipe" >
-               
-          </Avatar>
+                {this.props.abk}
+              </Avatar>
             }
             action={
               <IconButton aria-label="settings">
                 <MoreVertIcon />
               </IconButton>
             }
-            title= {this.props.name}
+            title={this.props.name}
             subheader="fliegend"
           />
           <CardContent>
