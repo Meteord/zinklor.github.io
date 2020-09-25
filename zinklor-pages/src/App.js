@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import datasource from './ultimatedata.txt';
 import * as d3 from 'd3';
 import './App.css';
+import EinheitenCard from "./EinheitenCard";
 
 class App extends Component {
 
@@ -43,6 +44,12 @@ class App extends Component {
       print: true,
       page: page
     };
+
+    const content = data.map((row) =>  
+      <div key={row.name} name={row.Name}>      
+      <EinheitenCard></EinheitenCard>
+  </div>
+);
     return (
       <div className="App">
         <header className="App-header">
@@ -55,6 +62,7 @@ class App extends Component {
         columns={this.columns}
         options={options}
       />
+      <div>{content}</div>
       </div>
     );  
   }
