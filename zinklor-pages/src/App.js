@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 import MUIDataTable from "mui-datatables";
 import logo from './logo.svg';
 import datasource from './ultimatedata.txt';
@@ -16,15 +16,14 @@ class App extends Component {
     
   getData(source, columns){
       return d3.tsv(source, function(data) {
+       //console.log(data); 
         let dataslide = [];
         columns.forEach(column => {
            dataslide.push(data[column])
         });
         return dataslide;
-      }).then((data) => {
-        console.log(data);
-        debugger;
-        this.setState({ data });
+      }).then((datas) => {
+        this.setState({ data: datas, page: 0});
       })
   }
 
@@ -35,6 +34,7 @@ class App extends Component {
 
   render() {
     const { data, page } = this.state;
+    console.log(data)
 
     const options = {
       filterType: "dropdown",
@@ -45,11 +45,6 @@ class App extends Component {
       page: page
     };
 
-    const content = data.map((row) =>  
-      <div key={row.name} name={row.Name}>      
-      <EinheitenCard></EinheitenCard>
-  </div>
-);
     return (
       <div className="App">
         <header className="App-header">
@@ -57,12 +52,11 @@ class App extends Component {
           <h1 className="App-title">Ultimate ultimate Einheitenregister</h1>
         </header>
         
-      <MUIDataTable
+        <MUIDataTable
         data={data}
         columns={this.columns}
         options={options}
       />
-      <div>{content}</div>
       </div>
     );  
   }
