@@ -22,7 +22,8 @@ class App extends Component {
         });
         return dataslide;
       }).then((data) => {
-        console.log(data[0]);
+        console.log(data);
+        debugger;
         this.setState({ data });
       })
   }
@@ -43,15 +44,11 @@ class App extends Component {
       print: true,
       page: page
     };
-    /**
-     *    <MUIDataTable
-        data={data}
-        columns={this.columns}
-        options={options}
-      /> 
-     */
-    const content = data.map((row, idx) =>    
-      <EinheitenCard name={row[0]} abk={row[1]} key={idx}></EinheitenCard>
+
+    const content = data.map((row) =>  
+      <div key={row.name} name={row.Name}>      
+      <EinheitenCard></EinheitenCard>
+  </div>
 );
     return (
       <div className="App">
@@ -60,7 +57,12 @@ class App extends Component {
           <h1 className="App-title">Ultimate ultimate Einheitenregister</h1>
         </header>
         
-      <div style={{ flexDirection: 'row', justifyContent: 'space-between', flexWrap: "wrap", display: "flex"}}>{content}</div>
+      <MUIDataTable
+        data={data}
+        columns={this.columns}
+        options={options}
+      />
+      <div>{content}</div>
       </div>
     );  
   }
