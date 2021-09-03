@@ -1,0 +1,319 @@
+﻿Name;Abkürzung;Kosten;Kraft;Schuss;Geschwindigkeit;Transport;Typ;Effekt/Erforschung;Hinweise
+Fledermäuse;F;30 G;20;-;- / 20cm;20;fliegend;-Kamikaze: Alle E in 5cm Umkreis -20K und 1 R nicht bewegen;
+Eisbären;Ei;10N 50G;60;-;3 / 3cm;50;gehend;-Panzer (Bringt +20K / Kostet 200G 2R); - Kann mit Bärenreiter kombiniert werden
+Drachen;D;200G 20N;200;-;- / 20cm;50;fliegend;" -Feuerdrachen (Bringt in 5cm Umkreis -20K / 200N 50G 3R)
+-Waldbrand (Bringt: Wald wird zerstört, in 3cm Umkreis -20K, im Wald -40K / Kostet 400H 100G 5R)";
+Heldenkrieger;He;20G;20;-;4 / 4cm;10;gehend;"-Törichter Wahnsinn: Sie bekommen +50K, aber 3-facher Schussschaden
+-Heldenepos (+20K / Kostet 400G 1R)";
+Engel;En;50G;50;-;- / 10cm;10;"fliegend/
+zaubernd";-Himmlischer Glanz (Bringt +20K / Kostet 400G 1R);
+Zauberer;Z;50G;40;-;3 / 2cm;10;"gehend/
+zaubernd";-Heilen: kann einer E 50K pro R heilen;
+Trolle;T;10N 50G;40;20S (5cm);5 / 4cm;20;gehend;"-Zusammenschluss: - 2 Trolle können sich zu 1 doppelköpfigen Troll weiterentwickeln (Kostet 20M / Kraft von 2 Trollen +20K, und 40S)
+- zwei doppelköpfige Trolle können sich zu 1 vierköpfigen Troll weiterentwickeln (Kostet 20M / Kraft von 2 doppelköpfigen ";
+Kobolde;Ko;10N;10;-;2 / 1cm;10;gehend;"-Bauen: Können Mauern errichten für 20S
+-Reparieren: Reparieren Gebäude / Maschinen 50G=50K";
+Riesen;R;100G 20H;120;-;7 / 7cm;80;gehend;-Bergriesen (Bringt +40K, +20K gegen G / Kostet 100H 200N 3R);
+Himmelsschrauber;Hs;20H;10;20S (5cm);- / 15cm;10;fliegend;-Verstärkte Bohlen (Bringt +30K / Kostet 200H 1R);
+Himmelspiratenschiffe;Hsp;100H;70;-;- / 20cm;"100
++5E";fliegend; -Kapern: Können ein unbewaffnetes Schiff übernehmen;Ausbildung nicht möglich, falls im Besitz von Marineeinheiten!
+Oger;O;50G;20;-;6 / 6cm;70;gehend;"-Ogerkeule (Bringt +20K / Kostet 400G 1R)
+-Rucksack (Bringt +50 Transport / Kostet 400G 2R)";
+Werwölfe;W;20N;20;-;8 / 7cm;20;gehend;"-Biss (Bringt eine geg. E innerhalb von 10R zu deinem Werwolf)
+-Geheul: alle E von dir in 5cm Umkreis +10K eine R lang";- Es kann nur einmal Geheul aktiv sein!
+Kriecher;Kr;100G;80;-;3 / 2cm;10;gehend;-Beschwörung: Kann E mit weniger als 40K zu dir beschwören = gehört zu dir;
+Dunkle Zauberer;dZ;120G;80;20S (5cm);2 / 2cm;10;gehend/ zaubernd;" -Feuerschuss: in 5cm Umkreis eine E abschießen: -20K
+Gebäude: pro Runde -20K
+Einheit: pro Runde -10K";- Es kann mehrfach Feuerschuss aktiv sein!
+Räuberbande;Rb;50G;50;-;4 / 4cm;30;"gehend/
+Räubernd";-Plündern (Bringt: können Rohstoffe von geg. Gebäuden klauen, müssen abtransportiert werden / Kostet 100H 200N 100G 4R);- Einheit kann nur ausgebildet werden, solange keine Marineeinheiten ausgebildet wurden!
+Walfänger;Wf;100H;10;-;- / 20cm;160;schwimmend;-Walfang: müssen zum einsamen Eisberg oder zu den Polen fahren und 1R dort bleiben um 80N zu erhalten, die sie an einem Hafen/Werft abliefern müssen;
+Kannibalen;Kb;20G 20M;60;-;5 / 6cm;10;"gehend/
+Kannibalisierend";"-Kriegsbemalung (Bringt +20K; Gegner in 5cm Umkreis -10K / Kostet 200G 100N 3R)
+-Speerwurf (Bringt +30S auf 5cm / Kostet 200H 1R)";
+Zwerge;Zw;40G;40;-;3 / 3cm;20;gehend;"-Tunneln: Können Tunnel mit Ein- und Ausgang bauen, pro R 1 Stück Tunnel; Kostet 50H.
+Kann nur durch Zwerge oder Feuereinheiten eingestürzt werden. Zwerge im Tunnel +20K";
+Schiffe;S;100H;40;-;"1cm Land
+15cm Wasser";"150
++5E";"schwimmend/
+Rollend";;
+König;K;-;800;-;8 / 8cm;10;"gehend/ zaubernd/
+Königend";"-Königseffekt: alle 5R einsetzbar
+-Patrick: Eissturm = Krieger sind halb so stark (4cm)
+-Simon: Zwei Riesen herbeirufen
+-Michael: Feuersturm = 3 E vernichten";- König kann nicht ausgebildet, sondern nur als Starteinheit ausgewählt werden
+Steingolem;G;100S 10G;160;-;2 / 2cm;40;gehend;-Explodieren: ist Tod. Jede E in 3cm Abstand -50K;
+Wasserdrache;Wd;200G 20N;180;-;"10cm Luft
+40cm Wasser";40;"schwimmend/
+Fliegend";-Wasserdampf: alle 5 R: 1R lang kann man den Drachen nicht sehen, er kann angreifen wen er will;- Wasserdrachen dürfen ausschließlich in den Meerengen von Atlantis ausgebildet werden!
+Krake;Kr;100N;80;-;20cm Wasser;30;schwimmend;"-Umschlinger: Kann alle Schiffe, z.B. Walfänger, Himmelspiratenschiffe, usw. zerstören, ohne Schaden zu nehmen
+-Tiefseekraken (Bringt +20K / Kostet 300G 1R)";
+Meeresjünger;M;80N 30G;80;-;"1 / 1cm
+20cm Wasser";10;"schwimmend/
+Gehend";"-Blitzstoß: Eine E kann sich 2R nicht bewegen und sie bekommt einen Schaden von 20K in einem Umkreis von 5cm
+-Poseidens Dreizack (Bringt +20 Schaden bei Blitzstoß / Kostet 300G 1R)";
+Walreiter;Wr;200N 50G;200;20S (5cm);30cm Wasser;"50
++1E";schwimmend;-Walweitsprung: Walreiter kann E, die sich an Land befinden in 4cm Umkreis angreifen, sie ihn jedoch nicht;
+Meereskönig;Mk;300G;150;-;"2 / 2cm
+15cm Wasser";10;"schwimmend/
+Königend";-Königliche Wasserschlacht: Jede Wassereinheit +20K; - Jeder Spieler darf nur einen Meereskönig gleichzeitig kontrollieren.
+Seeschlange;Ss;50N 30G;70;-;10cm Wasser;20;schwimmend;"-Gräben graben: Kann einen Wassergraben pro R bauen; muss Anschluss ans Wasser oder einen anderen Graben haben; Seeschlange muss am Beginn sein";
+Thunfischfarm;T;300G;50;-;- / -;-;Gebäude;"-Thunfisch thunen: 50N pro R; muss an Fischstandorten platziert werden";
+Katapulte;Ka;80H;20;40S (10cm);3 / 2cm;0;gehend;"-FLAK: Schuss tötet Lufteinheit sofort
+-schweres Kriegsgerät (Bringt +40K / Kostet 300H 3R)";
+Ents;E;100H 10G;180;-;2 / 8cm;40;gehend;" -Einwurzeln: +20K und niemand sieht ihn; können auf 4cm Umkreis angreifen
+-Baumriesen (Bringt +80K / Kostet 400H 4R)";
+Streitwagen;Stw;60H 30G;70;20S (5cm);8 / 12cm;20;gehend;;
+Indianerbande;I;-;100;-;4 / 4 cm;-;gehend;;"- Wird nur durch Ereigniskarte hervorgerufen!
+- Startet bei Indianerdorf"
+Kuschelgarde;Kg;-;100;-;4 / 4cm;-;gehend;;"- Wird nur durch Ereigniskarte hervorgerufen!
+- Startet bei Kicherode"
+Dr. Knuddels Kleiderschränke;DKKS;-;240;-;- / 10cm;-;fliegend;;"- Wird nur durch Ereigniskarte hervorgerufen!
+- Startet bei Kicherode"
+Zollstation;Zs (?);50G 50H 50S;200;-;- / -;-;Gebäude;-Zoll: bei ihr kann vom Besitzer ein unbestimmt hoher Zoll, für geg. E die in 5cm Umkreis passieren wollen, erhoben werden (muss aber davor klargegeben werden);
+Eiskönigin;Ek;300G;150;-;2 / 2cm;10;gehend;"-Eis am Stiehl: Alle Eiseinheiten +20K
+-Eineisen: kann auf 10cm eine E einfrieren, 4R lang eingefroren -20K";
+Eiswölfe;Ew;60N;40;-;7 / 7cm;20;gehend;-Geheul: alle E vom Gegner in 5cm Umkreis -10K für eine Runde;- Geheul kann nicht mehrfach auf ein Gebiet angewendet werden!
+Bärenreiter;Br;50G;50;-;3 / 3cm;20;"gehend/
+Reitend";-Digitieren: Eisbär + Bärenreiter = Eisbärreiter = 150K;
+Feuerkobolde;Fk;20N;10;-;5 / 5cm;10;gehend;-Brennen: 3cm Umkreis -20K (egal ob Gegner oder Verbündet);
+Orks;Ok;80G;70;-;6 / 6cm;30;gehend;"-Orkfett (Bringt +20K / Kostet 200G 2R)
+-Kriegsaxt (Bringt +20K / Kostet 400G 2R)";
+Gargoil;GG;-;300;-;2 / 2cm;50;gehend;"-Beschwörung: Entsteht nur, wenn 5R lang an 5 Beschwörungsorten ein dunkler Zauberer steht
+-DAS BÖSE!: Jede Böse Einheit (?) +10K, alle anderen -10K";
+Waldläufer;Wl;100N;70;20S (5cm);7 / 10cm;10;gehend;-unsichtbare Augen (Bringt: kann nicht in Wald und Wiese gesehen werden / Kostet 200G 5R);
+Elben;Eb;100N 50G;110;30S (10cm) ;4 / 6cm;10;gehend;-Tarnung: Man sieht sie 5R lang nicht + Überraschungsangriff +40K;
+Gefängniswärter;Gw;50G;30;-;4 / 1cm;10;gehend;-Einbuchtung: kann eine E in 2cm Umkreis gefangen nehmen (geht nicht, wenn sie eingefroren oder geschockt ist). Sie wird ins Gefängnis von ihm gebracht, wird das Gefängnis zerstört kommt die E frei;
+Eisdrachen;ED;200G 20N;180;-;- / 20cm;50;fliegend;"-Einfrieren: friert eine E für 2R ein in 5cm Umkreis; E -20K";
+Drachenkönig;DK;400N 100G;400;-;- / 25cm;50;fliegend;-Herr der Drachen: Alle Drachen von dir haben +20K;
+Wolkenfestung;(?);-;500;-;- / 30cm;100;fliegend;(?);
+Koloss;KL;450 (?) 20S 50G;400;-;4 / 5cm;100;gehend;"-Reparatur: Er kann sich heilen, indem er Bäume isst. Jede R 50K
+-Goldkoloss (Bringt +40K / Kostet 500G 3R)";
+Zentauren;Ze;10G 60N;50;20S (5cm);8 /10cm;40;gehend;-Eposgestalt (Bringt +20K / Kostet 100H 2R);
+Minotaurus;Mt;20S 50N;100;-;4 / 6cm;40;gehend;"-Wegschleudern: Kann E wegschleudern -20K. E braucht eine R um aufzustehen
+-Eposgestalt (Bringt +20K / Kostet 100H 2R)";
+Hydra;Hy;100N;80;-;"10cm Land
+20cm Wasser";20;"schwimmend/
+Gehend";"-Lebensentzug: Für jede getötete E +10K
+-Todeshydra (Bringt: wird nach 5R wiederbelebt. Kann nur einmal wiederbelebt werden / Kostet 200H 400G 2R)";
+Kriegsschiff;Kf;100H 50G;130;40S (5cm);"- / 1cm
+20cm Wasser";20;schwimmend;;
+"Schiffkutter
+(Fischkutter)";FK;50H;10;-;"- / 1cm
+15cm Wasser";100;schwimmend;"-Fischen: kann an eine Stelle mit Fischen 1R warten um danach einen Hafen aufzusuchen und 50N zu erhalten
+-verstärktes Netz (Bringt: man erhält zusätzlich 20N pro Fischfang / Kostet 200N 100H 1R)";
+Runenmeister;Rm;100N;80;-;3 / 3cm;20;gehend;"-Vereisen: 1 E in 5cm Umkreis -20K, bleibt 2R vereist
+-Eismeister (Bringt +10K; +10K Abzug beim Vereisen und 1R länger / Kostet 200G 100M 2R)";
+dunkele Schatten;dS;180N 20M;200;-;- / 20cm;50;fliegend;-Schreien: Geg. E in 3 Feldern Umkreis müssen im nächsten Zug sich so weit wie möglich von ihm entfernen (nur 1 mal in 5R) (?);
+Bogenschützen;Bg;50H 20N;40;20S (5cm);5 / 7cm;10;gehend; - Normietum: Pro 10E auf einem Haufen +10K. ;
+Sphinxen;Sx;120N 40M;150;-;1 / 7cm;30;gehend/ Zaubernd;-Grabwächtersphinx (Bringt: +20K / Kostet 60N 60G 4R);
+Reiter;RT;30G 50N;60;-;7 / 10cm;30;gehend;" -schwere Reiter (Bringt: +20K bei geg. Angriff / Kostet 200N 100G 2R)
+-Elite Reiter (Bringt: +10K +2/5cm Bewegung / Kostet 250N 100G 2R)  - Normietum: Pro 10E auf einem Haufen +10K. ";
+Speerschleuderer;Sps;50G 20H;50;30 Wurf (5cm);3 / 5cm;20;gehend; -Elite Speerkämpfer (Bringt: +20K +20 Wurf / Kostet 200N 100G 2R)  - Normietum: Pro 10E auf einem Haufen +10K. ;
+Schwertkämpfer;Sw;50G 40N;70;-;5 / 8cm;20;gehend;" -starke Rüstung (Bringt +20K bei geg. Angriff / Kostet 200G 2R)
+-Elite Schwertkämpfer (Bringt +20K / Kostet 200N 100G 2R)  - Normietum: Pro 10E auf einem Haufen +10K. ";
+Mumien;Mu;100G;80;-;2 / 10cm;5;gehend;"-Verwandeln: Verwandelt eine geg. E in einen Trabanten (gehört zu dir). Alle zwei R; auf 3cm Entfernung
+-Totenmaske (Bringt +20K / Kostet 300G 1R)";
+Skorpionmann;Skm;50G 60N;90;-;3 / 15cm;20;gehend;"-Vergiften: Die E, die gegen ihn kämpft, erleidet Giftschaden; jede R -10K";
+Riesenschlange;Rs;110N;100;-;3 / 15cm;0;gehend;"-Würgen: kann eine geg. E würgen; kann sich nicht wehren; -20K die R
+-schnelles Wachstum (Bringt: Kann zwei E gleichzeitig würgen / Kostet 200N 3R)";
+Hohenpriester;HH;500G;120;-;3 / 10cm;10;gehend;-Verzaubern: kann an einem Gebäude in 5cm Umkreis den doppelten Ertrag hervorrufen, oder die E um die Hälfte billiger machen;"- Man kann nur einen Hohenpriester gleichzeitig besitzen!
+- Bei „Verzaubern“ muss Hohenpriester permanent anwesend sein!"
+Trabant;(?);10G;10;-;2 / 8cm;5;gehend;;- wird durch Mumien hervorgerufen!
+Mümakil (Olifant);Mü;300N 30H;300;-;5 / 15cm;"200
++10E";gehend;-Übertrampeln: alle E auf einem Feld, dass er überquert bekommen 20K schaden;
+Höhlentroll;Ht;80N;80;-;2 / 8cm;20;gehend;-Dunkeltrolle (Bringt +30K / Kostet 300G 2R);
+Trommeln der Moria Goblins;MT;10H 10G;10;-;2 / 6cm);0;gehend;"-Kriegstrommeln: Alle verb. E in der Nähe erhalten +20K; 10cm Umkreis";- Effekt kann nur einmal gleichzeitig in einem Gebiet wirken!
+Packbestie;Pb;50N 10H;20;-;2 / 8cm;100;gehend;"-Verschlingen: 1 E in 5cm Umkreis wird jede R -20K abgezogen und ist kampfunfähig bis sie oder die Packbestie tod ist; sie ist dann in ihr drin";- unsichtbar bis beladen!
+Zwergenbogenschützen;ZwB;30G 10H;30;20S (5cm);4 / 4cm;20;gehend;(?);
+Zwergenballiste;ZB;150H;20;50S (22cm);4 / 4cm;0;gehend;-schweres Kriegsgerät (Bringt +40K / Kostet 300H 3R);
+Echsenkönig;Eck;1000G;500;"40s (5cm)
+Gift!";4 / 4cm;40;gehend; -Giftmischer: Bogenschützen haben Giftschaden -Echsen: Echsen (EX);
+Talgrim, König unter dem Berg;Zwk;1000G;500;-;4 / 4cm;40;gehend;"-Die Kleinsten werden die Größten sein: Zwerge +20K
+-Berserker: Berserker (BS)";
+Hexenmeister;HX;1000G;500;-;4 / 4cm;40;gehend;"-Golden Shower: 50M pro R
+-Ringritter-spezial: (?)";
+Feenkönigin;FK;1000G;500;-;4 / 4cm;40;gehend; -Todesfeen: Todesfeen (TF) -Kristalltürme: Kristalltürme (KT);
+1. Admiral;1.A;1000G;500;-;4 / 4cm;40;gehend;"-Stillgestanden!: alle Marineeinheiten +20k
+-Bauaufsicht: alle Schiffe +20k
+-Handelsschiffe: Handelsschiffe (Hf)";
+Eiszauberer;Ez;1000G;500;-;4 / 4cm;40;gehend;"-Naturkaviar: 50M pro R
+-Yetis: Yetis (Y)";
+Pharao Ramses I;PhRI;1000G;500;-;4 / 4cm;40;gehend;-Gruftis: jede R 1 Mumie;
+Echsen;EX;100N 40H;100;"30S (5cm)
+Gift!";3 / 7cm;40;gehend;;- Ausbildung nur durch Echsenkönig!
+Berserker;BS;100N;20;-;5 / 3cm;10;gehend; -Berserken: +500K im Kampf gegen geg. E in 2cm Umkreis. Nach dem dieser Effekt eingesetzt wurde stirbt der Berserker.;- Ausbildung nur durch Talgrim!
+Todesfeen;TF;300N;120;-;- / 20cm;10;fliegend;"-Tödlicher Blick: 1E in 3cm Umkreis tot; 1 mal pro R";- Ausbildung nur durch Todesfee!
+Handelsschiffe;Hf;100G 50N;50;-;15cm Wasser;50;schwimmend;;- unnötig? (?)
+Yetis;Y;100N;60;20S (5cm);3 / 10cm;20;gehend;;- Ausbildung nur durch Eiszauberer!
+Ballistenturm;BT;50S 50H;40;"40S (20cm)
++LE tot";-;-;Gebäude; -AntiBrumm: Beim Schuss tötet sie sofort eine Lufteinheit;
+Geschützturm;GT;30H 30S;40;20S (10cm);-;-;Gebäude;;
+Magieturm;MT;150G;60;-;-;-;Gebäude;-Magiestopp: kein Wirken von Magie oder Teleportation in einen Umkreis von 30cm zum Turm möglich, außer Besitzer des Turmes erlaubt es.;
+Kleine Festung;KF;200G 100S 100H;400;20S (10cm);-;-;Gebäude;-Katapult (Bringt +30S / 200H 3R);
+Kaserne;KA;50H 50S;100;-;-;-;Gebäude;"-Ausbildung: man kann RT, Sps, Sw, Bg ausbilden
+-Betriebskosten: 50N/R";
+Kriegsmaschinenbauer;KMB;100H;100;-;-;-;Gebäude;"-Ausbildung: Ausbildung aller Maschinen und Belagerungswaffen
+-Betriebskosten: 50N/R";
+Giftfallen;GF;50G;-;-;-;-;Gebäude;-Auslösen: E in 2cm Umkreis wird vergiftet.;
+Stachelfallen;SF;40H;-;-;-;-;Gebäude;-Auslösen: E in 2cm Umkreis -50K;
+Minenfallen;MF;150G;-;-;-;-;Gebäude;-Auslösen: Jede E in 3cm Umkreis -30K;
+Dampfpanzer;Dp;100S;50;80S (20cm);3 / 3cm;10;gehend;;
+Sandsegler;Sa;20H 50G;20;-;"10cm Land
+25cm Wüste";"40
++5E";gehend;-großes Segel (Bringt: 7cm schneller / Kostet 150H 2R);
+Kristalltürme;KT;400G;100;100S (5cm);-;-;Gebäude;-Quickscope: tötet alle geg. E in 3cm Umkreis;- Ausbildung nur durch Feenkönigin!
+Moria Goblin;MG;10N 10G;20;-;2 / 8cm;10;gehend; -Plündern: können Rohstoffe von geg. Gebäude klauen (müssen abtransportiert werden);
+Moria Goblin Bogenschütze;MGB;10N 10H;10;10S (5cm);2 / 8cm;10;gehend; -Plündern: können Rohstoffe von geg. Gebäude klauen (müssen abtransportiert werden);
+Kampfmammut;KM;60N 20H;80;-;3 / 5cm;50;gehend;;
+Kampfdampfmaschinen;DM;30S;60;-;3 / 3cm;20;gehend;-Reperatur: eine andere Kampfdampfmaschine +50K wiederherstellen;
+Fallenleger;Fa;30N;10;-;5 / 8cm;30;gehend; -Fallen legen: legt Fallen(ach wirklich);
+Mammutbaumstammballiste;MB;60N 60H;40;60S (15cm);2 / 5cm;50;gehend;-Baumstammkanone (Bringt Baumstammkanone / Kostet 400H 1R);(?)
+U-Boot;UB;20H 20S;40;-;15cm Wasser;"20
++4E";schwimmend;-Torpedorohre (Bringt +50S gegen Schiffe auf 3cm / Kostet 300S);- Abtauchen? (?)
+Zeppelin;Zp;50S 50G;60;10S (5cm);- / 15cm;"50
++4E";fliegend;-Explosion: Wenn Zeppelin zerstört wird, explodiert und fügt allen E im Umkreis von 10cm Schaden in Höhe von 20K zu.;
+Bomber;B;80S;20;50S (5cm);- / 18cm;50;fliegend;" -Bombardieren: alle geg. E in 2cm Umkreis -50K; 1 mal pro R
+-Fortschritt (Bringt: Bomber können ausgebildet werden / 100S 3R)";- Kann nur im Industriegebiet erforscht werden!
+Hunde;H;30N;30;-;5 / 8cm;10;gehend;-Kampfhunde (Bringt +20K / Kostet 350G 4R);
+Flieger;Fl;50H 20S;40;20S (5cm);- / 22cm;"10
++1E";fliegend;-Jäger (Bringt +30K / Kostet 100S 3R);
+Arbeitsmammut;Am;60N 60H;80;-;3 / 5cm;60;gehend;"-Arbeiten (Bringt: Können Holz/Stein sammeln; 30H/S pro R / Kostet 200H 200N 1R)";- Kann nur in der Klippenfestung erforscht werden!
+Große Festungsanlage;GFA;1000H 500S;2000;-;-;-;Gebäude;"-Fett: ist 10cm lang
+-Betriebskosten: 50N/R";
+Kanonen;Kn;70S;30;"100S (4cm)
+50S (6cm)";1 / 2cm;0;gehend;"-Pferd kaufen: für 50G kann eine Kanone +2 / 2cm
+-Profischießpulver (Bringt +20S / Kostet 100S 1R)";
+Musketen;Mus;100G;60;"40S (4cm)
+20S (6cm)";4 / 6cm;20;gehend;-Profischießpulver (Bringt +20S / Kostet 100S 1R);
+Himmelshandelsschiff;HHS;100H;30;-;- / 15cm;"200
++5E";fliegend;;
+Fregatten;Fr;200H;200;100 (5cm);- / 10cm;"50
++5E";fliegend;-schwere Panzerung (Bringt +50K bei geg. Angriff / Kostet 200H);
+"Marinestützpunkt
+Drachenhöhle
+Himmelspiratennest";"MS
+DH
+HN";100H;100;-;-;-;Gebäude;"-Ausbildung: -MS: Kn, Mus, HHS, Fr
+-DH: alle Drachen (außer Wasserdrachen)
+-HN: Hsp, Rb, HHS";
+Großes Himmelspiratenschiff;Ghsp;1000H;500;1000S (5cm);- / 10cm;"200
++10E";fliegend;-Rudelführer: Verstärkt alle Hsp um 50K und 50S;
+Lehmgolem;LG;200H 50S 100M;400;-;2 / 2cm;100;gehend;"-Betriebskosten: 10 Magie / R
+-Fernsteuerung: Wenn sie gestorben sind, werden sie nach 5R wiedergeboren. Müssen von Zauberer in Zaubererturm gesteuert werden; stirbt dieser, sterben sie auch. Kommen sie mit Wasser in Berührung sterben sie";" - Lehmrüstungsabrüstungsvertrag umgehen: zahle an jeden Spieler 1000G und du darfst ab sofort Lehmgolems ausbilden
+Einheit wurde gebannt!"
+Zaubererturm;Zt;50H 50M;50;-;-;-;Gebäude;"-Betriebskosten: 10N
+-Alles Neu: Z: können 100K/R heilen
+Rm: können 2E vereisen
+DZ: können 2E abschießen";- Wann tritt der Effekt in Kraft (?)
+Magiegrenze;(?);200M;-;-;-;-;Gebäude;"-Betriebskosten: 50M pro 10cm
+-Mauern: alle E in 2cm Umkreis -50K/R";
+Allosaurus;AL;80N 70G;120;-;6 / 8cm;50;gehend;-Biss: 1E in 2cm Umkreis -30K;
+Peterardonreiter;Pt;100N;80;-;- / 20cm;20;fliegend;;
+Saltosaurierkatapult;SK;220N 100H;100;100S (20cm);3 / 3cm;100;gehend;;
+Brachiotransporter;Btr;180N;150;-;4 / 5cm;"120
++5E";gehend;-Brachioerdbeben: alle E in 3cm Umkreis -20K;
+Hungerlungerritter;Hlr;50N 30H;60;-;9 / 12cm;20;gehend;-Adelstitel (Bringt +30K / Kostet 200H 100G 2R);
+Totenbeschwörer;Tt;50N 100G;30;20S (5cm);2 / 2cm;20;gehend;-Totembelebung: Eine E, die letzte R gestorben ist wird mit vollem Leben wiedererweckt und gehört zu dir. Wenn Totenbeschwörer stirbt, sterben sie auch.;- In welchem Umkreis? (?)
+Erzmagier;Em;200N 100G 100M;100;-;3 / 3cm;20;gehend;" -Zaubern: -Heilwelle: Kann 3E 50K heilen / Kostet 50M
+-Erleuchtung: Kann eine E vom Gegner auf deine Seite wechseln lassen
+-Blendung: Kann eine E nicht mehr schießen lassen auf einem Feld
+ -Ausweichen: Kann einem Geschoss/Angriff/Magieangriff ausweichen /  - Blitzgewitter: Im Uk von 10cm jeder geg. E. - 30K/ Kostet 100M";
+Phönix;Px;50G 150M;200;-;- / 13cm;0;fliegend;-Wiederbelebung: Wird nach 5R wiedergeboren. Kann dazwischen zerstört werden weil er in einem Ei mit 100K ist.;
+Ringritter;Rr;300N 300G 200M;400;-;- / 20cm;30;fliegend;"-Fluchen: -Mannaentzug: Eine zaubernde E in 5cm Umkreis wird vom Gegner 100M für dich entzogen; du erhältst es
+-Massentotenerweckung: 3 tote E werden wiedererweckt / Kostet 100M
+-Verfall: eine E -100K die R / Kostet 20M
+-Todeslicht: alle geg. E in 10cm Um";
+Drachenmagier;Dmg;300N 300G 200M;400;-;- / 20cm;30;fliegend;"-Zaubern: -Heilwelle: Kann 3E 50K heilen / Kostet 50M
+-Erleuchtung: Kann eine E vom Gegner auf deine Seite wechseln lassen
+-Blendung: Kann eine E nicht mehr schießen lassen auf einem Feld
+-Ausweichen: Kann einem Geschoss/Angriff/Magieangriff ausweichen / ";
+Seeschlange von Arrabis;;3000G;3000;;20cm im Wasser;0;schwimmend/ Zaubernd; - Hautwie1Betong: Immun gegen Magie. Kann 10 cm Über Land anstatt über Wasser und errichtet dort auf dem Weg direkt Wassergräben. ; - Ausbildung in der Zerstoerten Stadt
+Balrock;B;3000G, 100M;2500;-;"4 / 5cm (B)
+20cm Wasser (Schlange)";0;gehend/ Zaubernd; - Haut ist Lava: Immun gegen Magie und 30K Schaden in 10 cm Umkreis bei eigenen sowohl gegnerischen Einheiten.; - Aubildung im Balrockaltar
+Hacker;Hc;500G;50;-;3 / 3cm;10;gehend;"-Unsichtbar: unsichtbar
+-Gebäude/Fahrzeuge deaktivieren: 3 R keine Produktion/Bewegung (in 10cm Umkreis); Hacker wird sichtbar für 1R
+-Hacken: +20G/R";- Unnötig? (?)
+Zwergengoldgräber;Zgg;100G;20;-;3 / 3cm;50;gehend;"-Gold schürfen: können in der Unterwelt und an Bergen Gold schürfen +20G/R
+-Gier (Bringt: schürfen 30G/R / Kostet 100G 5R)";
+Seraphime;Sph;500G;100;-;- / 15cm;20;fliegend;"-göttliche Vergeltung: Für jede E (von dir) was in 5cm Umkreis von ihnen getötet wurde erhalten sie für immer +20K
+-himmlischer Glanz (Bringt: +20K / Kostet 400G)";
+Trampeldrachen;Td;600G;400;-;5 /10cm;"50
++30E";gehend;"-Trampeln: können E (auch eigene) in 2cm Umkreis wegfetzen; Jede E -30K und sie fliegen 3 Felder weg";
+Palastwache des Zwergenkönigs;Pzw;1000G;600;-;2 / 2cm;10;gehend; -Königlicher Schild: Macht eine Einheit in 5 cm Umkreis imnun gegen Schuss. Es kann nur eine Einheit gleichzeitig unter diesem Effekt stehen.;
+Orkarmbrustschützen;Oa;120G;50;40S (8cm);6 / 6cm;30;gehend;"-Orkfett (Bringt +20K / Kostet 200G 2R)
+-Elitearmbrust (Bringt +10S +5cm / Kostet 200H 2R)";
+Orkkriegsherren;Okh;500G;250;?;6 / 6cm;30;gehend;"-Orkfett (Bringt +20K / Kostet 200G 2R)
+-Kriegsaxt (Bringt +20K / Kostet 200G 2R)";
+Wächterei;We;500G;200;-;- / -;-;Gebäude;f;- Kann nur durch Orkkriegsherrn ausgebildet werden!
+Orksklaventreiber;Ost;70G;40;-; 6 / 6cm;30;gehend;(?);
+Riesenspinnen;Rsp;100G;50;-;10 / 10cm;50;gehend;"-Verwachsen: Können mit einem Ork verwachsen: Geschwindigkeit von Riesenspinne; Kraft zusammen +20K; beide Effekte; können sich auch wieder trennen
+-Spinnennetze: Eine E wird 4R bewegungsunfähig in 3cm Umkreis
+-Giftnetze (Bringt: Alle eingesponnen E bekom";
+Keulentrolle;Kt;300G;200;-;5 / 4cm;50;gehend;"-Flächenschaden: trifft alle E auf einem Feld mit -20K
+-Dunkeltrolle (Bringt +30K / Kostet 300G 2R)
+-Steinblut (Bringt: bekommen nur Hälfte an Schussschaden / Kostet 600G 3R)";
+Moorleichen;ML;50G;10;-;2 / 2cm;10;gehend;"-Totenkraft: sind immun gegen Schüsse und haben im Moor/Sumpf +20K
+-Seuche (Bringt: Können 1E/R verseuchen, jede R -10K; geg. E in 3cm Umkreis können angesteckt werden / Kostet 500G 2R)";
+Gálran Zhadar;GZ;2000G;1000;-;4 / 4cm;10;gehend;(?);
+Steinbeißer;SB;500G;100;-;5 / 5cm;50;gehend;(?);
+Twillo;Tw;2000G;500;-;5 / 4cm;20;gehend;"-Knidtle beschwören: Twillo's Teddy kann einer geg. E gegeben werden. Gegen diesen Gegner alle deine E +50K.
+-Trolle opfern: Kann Trolle opfern um ihre K zu erhalten";
+Gyldan;Gy;2000G;500;200S (10cm);0 / 12cm;20;gehend;-Geist des Waldes: Wl +20K, doppelt so schnell;
+Konian, Haldar, Zinkör;(?);2000G;500;-;3 / 3cm;20;gehend;"-50M: 50M
+-Dunkeles Ritual: (?)
+-Magiesturm: (?)";
+Cyborgs;(?);20S 50N;100;-;2 / 3cm;10;gehend;;
+Froschmutanten;(?);100N;70;-;10cm springen;50;springend;;
+Schimären;(?);50M 50N;120;-;5 / 5cm;20;gehend;;
+Chamäleonmutanten;(?);170N;100;-;10 / 10cm;10;gehend;-Chamälisieren: Kann sich 3R unsichtbar machen;
+Brandpfeilwerkstatt;-;-;-;-;-;-;Ort; -Zündeln: Bogen gegen Gebäude doppelten Schaden;
+Erdenhammer;-;-;-;-;-;-;Ort;-Hämmern: Kann auf der ganzen Unterwelterweiterung alle 5R ein Erdbeben auslösen: Alle E in 5cm Umkreis vom Epizentrum -50K;
+Halle des Lichts;-;-;-;-;-;-;Ort;"-Lichtrüstung (Bringt alle E von dir +20K / Kostet 500G 4R)
+-Erzengel (Bringt: Alle Engel und Seraphime +50K / Kostet 200M 4R)
+-Magierstärkung (Alle Zauber ziehen die Hälfte mehr ab / Kostet 300M 5R)";
+Halle der Dunkelheit;-;-;-;-;-;-;Ort;"-Flammenrüstung (Bringt: geg. E -20K bei Nahkampfangriff / Kostet 300G 4R)
+-Dunkelflügler (Bringt: alle fl. E +30K / Kostet 200M 4R)
+-Dunkelmagie (Bringt: jede Art von Magie hat einen Giftschaden von -10K / Kostet 200M 1R)";
+Gezeitenanlage;-;-;-;-;-;-;Ort;"-Strömung: Wassereinheiten schwimmen in eine Richtung nur halb so lang, entgegengesetzte Richtung doppelt so schnell
+-Flutwelle: 5cm an Land -20K (außer Gebäude)";
+Giftpfeilwerkstatt;-;-;-;-;-;-;Ort;-Gifteln: Eine E in einer R wo in 2cm Umkreis kommt, schießt Giftpfeile (nur Bogenschützen oder Riesen für Keulen);
+Hügelgräberhöhen;-;-;-;-;-;-;Ort;"-Fluchen: Kann Flüche verbreiten (muss auf eine geg. E zielen)
+Würfel: 1,2 = Seuche: Eine E wird verseucht, jede R -10K; geg. E in 3cm Umkreis können angesteckt werden
+3,4 = Verlangsamung: E bloß noch halb so schnell, für 5R
+5,6 = Fähigkeit verlieren: E v";
+Karawanenstadt;-;-;-;-;-;-;Ort; -Karawanieren: alle E in der Wüste doppelt so schnell;
+Katapultwerkstatt;-;-;-;-;-;-;Ort;-Profipult: Katapulte bauen mit +30K;
+Klippenfestung;-;-;-;-;-;-;Ort;"-Arbeitsmammuts (Bringt: man kann sie ausbilden / Kostet 300H 1R)
+-starke Mauern (Bringt: Mauern +50K / Kostet 200S 1R)";
+Schreckensherrschaft;-;-;-;-;-;-;Staatsform;"-Schinderei: alle Einnahmen verdoppeln sich
+-Rebellion: alle 10R wird Armee halbiert, bei Ungerade wird Kraft halbiert
+-Überläufer: Für jedes vom Feind zerstörte Gebäude:
+-Rohstoffgebäude: Gegner bekommt pro Rohstoffgebäude 2 Sw
+-Militärgebäude: Gegner be";
+Merkantilismus;-;-;-;-;-;-;Staatsform;"-Just-in-Time: Transport nicht mehr verfügbar, alles wird sofort geliefert (in 10cm Umkreis zu einer E)
+-Baukunst: alle Gebäude +100K, +10K die R heilen";
+Monarchie;-;-;-;-;-;-;Staatsform;"-Ritter: Alle Reiter +100K
+-Leibgarde: König (Herrscher) hat doppelt so viel Kraft";
+Börsenherrschaft;-;-;-;-;-;-;Staatsform;"-Investieren: Man kann ein Vielfaches von 100G in ein Gebäude investieren. Jede R kriegt man, pro investierte 100G, +20G. Wird das Gebäude zerstört ist das investierte Geld verloren und man kriegt keine Einnahmen mehr.
+-Geldanleihe: Man kann sich einen be";
+Eins mit der Natur;-;-;-;-;-;-;Staatsform;-Guerillakampf: Jede E (außer König) ist unsichtbar, solange sie sich nicht bewegt. Bei Nahkampf +40K Überraschungsschaden (2cm);-Besser machen (?)
+Kalifat;-;-;-;-;-;-;Staatsform;"-Guter Draht nach Oben: 50M pro Runde (Alle 5R +50M/R)
+-Barrierenbruch: Alle 5R, 1R Magie wirken, trotz Magietürmen
+-Gesandter Gottes: Start mit Hohenpriester statt König";
+Demokratie;-;-;-;-;-;-;Staatsform;"-Neuwahlen: Wenn der König stirbt kann man eine andere E zum König bestimmen (egal welche, muss deine sein)
+-Wehrpflicht: Für 2R kann man alle 5R zwei Sw pro Gebäude an deine Seite rufen (in 5cm Umkreis zu einer E)";Mit Paddi abreden (?)
+Computerzeitalter;-;-;-;-;-;-;Staatsform;"-Hacker: sie können Hacker ausbilden
+-Industrie: Gebäude können nur von Maschinen aufgebaut werden, für den halben Preis
+-Hochentwickelte Technologie: Alle Maschinen doppelt so viel Kraft
+-Ausgeburt der Technologie: Sie kriegen am Anfang eines Spiels eine";Hacker (?)
+Kolonialherrschaft;-;-;-;-;-;-;Staatsform;"-Handelskontor: Man hat seit Anfang 2 HHS
+-Kolonialpolitik: Für jedes neu aufgebaute Gebäude +100G; Gebäude +50K
+-Handelsautomatisierung: Jede E doppelt soviel Transport";
+Kommunismus;-;-;-;-;-;-;Staatsform;"-Solidarität: Gebäude haben keine Betriebskosten
+-Ostalgie: Alle 2R kostenloses Mauerstück in 5cm Umkreis zu E, eigene E können Mauer nicht passieren, verlieren jedoch auch keine Kraft beim zerstören.
+-Sozialversicherung: Alle E heilen +20K/R";
+Faschismus;-;-;-;-;-;-;Staatsform;"-Rassismus: keine E außerhalb der Starterweiterung können ausgebildet werden
+-Blitzkrieg: Alle E +5 / 10cm Bewegung
+-Zwangsarbeit: Pro 5 getötete E +100G (nur innerhalb einer Schlacht anwendbar)";
+ Normietum wird zur Statsräson ;-;-;-;-;-;-;Erforschung; - Normiemali: Normietum doppelt so start. Normale Einheiten(Reiter, Bogenschützen, Schwertkämpfer, Reiter) bekommen +20K pro 10E;
